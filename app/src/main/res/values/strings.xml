@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Home monitoring system using Raspberry Pi</string>
+    <string name="welcome_to_the_home_monitoring_system">Welcome to the Home Monitoring System!</string>
+</resources>

@@ -32,7 +32,7 @@
         app:layout_constraintVertical_bias="0.132" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/mainHelpBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"

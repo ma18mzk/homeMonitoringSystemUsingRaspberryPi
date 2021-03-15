@@ -18,7 +18,7 @@ public class Camera2Settings extends AppCompatActivity {
 
         cam2stngsWebView = (WebView) findViewById(R.id.camera2SettingsWebView);
         cam2stngsWebView.setWebViewClient(new WebViewClient());
-        cam2stngsWebView.loadUrl("http://tfl.gov.uk/");
+        cam2stngsWebView.loadUrl("http://192.168.1.20/");
 
         WebSettings webSettings = cam2stngsWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);

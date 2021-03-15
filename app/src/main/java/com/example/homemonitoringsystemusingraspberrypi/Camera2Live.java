@@ -18,7 +18,7 @@ public class Camera2Live extends AppCompatActivity {
 
         camera2webView = (WebView) findViewById(R.id.camera2WebView);
         camera2webView.setWebViewClient(new WebViewClient());
-        camera2webView.loadUrl("http://www.google.com/");
+        camera2webView.loadUrl("http://192.168.1.20/picture/1/frame/");
 
         WebSettings webSettings = camera2webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
